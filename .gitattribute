@@ -1,0 +1,16 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Force bash scripts to always use LF (for Unix-based systems)
+*.sh text eol=lf
+
+# Ensure JSON files use LF
+*.json text eol=lf
+
+# Ensure CSS and JS files use LF
+*.css text eol=lf
+*.js text eol=lf
+
+# Keep Windows executable files untouched
+*.exe binary
+*.dll binary
